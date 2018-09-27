@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pxf_str_one:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/pxf_str_one_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pxf_str_one" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Struts 2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="pxf_str_one/web/Web" />
+    </root>
+  </artifact>
+</component>
